@@ -29,7 +29,7 @@ function getStory(formData) {
 }
 
 function generateStory1(formData){
-  return `Twas a dark and stormy ${formData.noun1}. The ${formData.adjective1} pumpkins started to ${formData.verb1}!`
+  return `There was once a far away ${formData.noun1}.`
 }
 
 function generateStory2(formData){
