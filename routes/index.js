@@ -29,7 +29,14 @@ function getStory(formData) {
 }
 
 function generateStory1(formData){
-  return `There was once a far away ${formData.noun1}.`
+  return `Today I am visiting Efren with ${formData.person1}.
+As we rode in our ${formData.vehicle} we see Efren’s house in the distance.
+We see that his ${formData.noun1} is in his front yard.
+His ${formData.adjective1} ${formData.color1} house is the ${formData.adjective2} in the neighborhood.
+As ${formData.person2} lets us in we go to Efren’s room.
+We bust into his room all ${formData.adjective3} as we see that he is ${formData.verb1} and we are in shock.
+His room is ${formData.adjective4} with ${} ${words[11]} all over the place.
+As we left, Efren gave us ${words[18]} as a goodbye gift, and then we went to ${formData.verb3}`
 }
 
 function generateStory2(formData){
