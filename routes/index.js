@@ -29,20 +29,28 @@ function getStory(formData) {
 }
 
 function generateStory1(formData){
-  return `Today I am visiting Efren with ${formData.person1}.
-As we rode in our ${formData.vehicle} we see Efren’s house in the distance.
-We see that his ${formData.noun1} is in his front yard.
-His ${formData.adjective1} ${formData.color1} house is the ${formData.adjective2} in the neighborhood.
-As ${formData.person2} lets us in we go to Efren’s room.
-We bust into his room all ${formData.adjective3} as we see that he is ${formData.verb1} and we are in shock.
-His room is ${formData.adjective4} with ${} ${words[11]} all over the place.
-As we left, Efren gave us ${words[18]} as a goodbye gift, and then we went to ${formData.verb3}`
+  return `My name is ${formData.person1} and I am ${formData.number1} years old. This is my story of how my ${formData.adjective1} ${formData.noun3} made my life.
+   It was a nice day with the nice bright ${formData.color1} sky. I was walking home after I saw the ${formData.noun1} at school. 
+   I sat down to eat some ${formData.food1}. While eating I saw a ${formData.noun2} and quickly started ${formData.verb1} as I left.
+    While leaving I dropped my ${formData.clothing1}. I cried when I got home after I noticed I left my ${formData.adjective2} ${formData.clothing1}.
+    I walked to my room and saw my picture of ${formData.famousperson1} torn up into ${formData.number2} pieces. I called ${formData.person2} and 
+  told them that ${formData.noun3} jumping up and down made my day. ${formData.person3} walked in and told me I got my dream job of ${formData.occupation1}.`
 }
 
 function generateStory2(formData){
-  return `Twas a cold and wintery ${formData.noun1}. The ${formData.adjective1} pumpkins started to ${formData.verb1}!`
+  return `My name is ${formData.person1} and I am ${formData.number1} years old. This is my story of how my ${formData.adjective1} ${formData.noun3} ate my homework.
+   It was a nice day with the nice bright ${formData.color1} sky. I was walking home after I saw the ${formData.noun1} at school. 
+   On my way home I took a break and ate ${formData.typeoffood1}. While eating I saw a ${formData.noun2} and quickly started ${formData.verbendingining1} as I escaped.
+    While leaving I dropped my ${formData.articleofclothing1}. I cried when I got home after I noticed I left my ${formData.adjective2} ${formData.articleofclothing1}.
+    I walked to my room and saw my picture of ${formData.famousperson1} torn up into ${formData.number2} pieces. I called ${formData.personinroom2} and 
+  told them that ${formData.noun3} ate my homework. ${formData.personinroom3} walked in and looked at the mess saying I will never be able to apply for ${formData.occupation1}.`
 }
 
 function generateStory3(formData){
-  return `Twas a rainy and cold ${formData.noun1}. The ${formData.adjective1} pumpkins started to ${formData.verb1}!`
+  return `My name is ${formData.person1} and I am ${formData.number1} years old. This is my story of how I got my ${formData.adjective1} ${formData.noun3} and how it made me happy.
+   It was a nice day with the nice bright ${formData.color1} sky. I was walking home after coming back from work after I had just seen a ${formData.noun1} laying on the table.
+   On my way home I took a break and ate some ${formData.food1}. While eating I saw a ${formData.noun2} and quickly started ${formData.verb1} as I left the area.
+    I was wearing my favorite ${formData.clothing1} and I was feeling great. I cried when I got home as I noticed my ${formData.adjective2} ${formData.clothing1} had stains on it.
+    I walked to my room and saw my picture of ${formData.famousperson1} sitting right next to my check of ${formData.number2} dollars. I called ${formData.person2} and 
+  told them about my ${formData.noun3}.  I called my boss ${formData.person3} and told them I quit. I will never work as a ${formData.occupation1} ever again.`
 }

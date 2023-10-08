@@ -3,50 +3,53 @@ extends layout
 block content
   h1 Enter Your Words
   form(method ="POST" action="/story" id="words")
-    label(for="noun1") Noun:
-    input(type="text" name="noun1" id="noun1")
-    br
-    label(for="verb1") Verb:
-    input(type="text" name="verb1" id="verb1")
-    br
-    label(for="adjective1") Adjective:
-    input(type="text" name="adjective1" id="adjective1")
-    br
     label(for="person1") Person:
-    input(type="text" name="person1" id="person1")
-    br
-    label(for="vehicle") Vehicle:
-    input(type="text" name="vehicle" id="vehicle")
-    br
-    label(for="color1") Color:
-    input(type="text" name="color1" id="color1")
-    br
-    label(for="adjective2") Adjective Ending with "est":
-    input(type="text" name="adjective2" id="adjective2")
-    br
-    label(for="person2") Person:
-    input(type="text" name="person2" id="person2")
-    br
-    label(for="adjective3") Adjective:
-    input(type="text" name="adjective3" id="adjective3")
-    br
-    label(for="verb2") Verb ending with "ing":
-    input(type="text" name="verb2" id="verb2")
-    br
-    label(for="color2") Color:
-    input(type="text" name="color2" id="color2")
-    br
-    label(for="noun2") Plural Noun:
-    input(type="text" name="noun2" id="noun2")
+    input(type="text" name="person1" id="person1" value="Fernando")
     br
     label(for="number1") Number:
-    input(type="text" name="number1" id="number1")
+    input(type="text" name="number1" id="number1" value="25")
+    br
+    label(for="adjective1") Adjective:
+    input(type="text" name="adjective1" id="adjective1" value="angry")
+    br
+    label(for="color1") Color:
+    input(type="text" name="color1" id="color1" value="blue")
+    br
+    label(for="noun1") Noun:
+    input(type="text" name="noun1" id="noun1" value="soccerball")
+    br
+    label(for="food1") Food:
+    input(type="text" name="food1" id="food1" value="tacos")
+    br
+    label(for="noun2") Noun:
+    input(type="text" name="noun2" id="noun2" value="McDonalds")
+    br
+    label(for="verb1") Verb ending in "ing":
+    input(type="text" name="verb1" id="verb1" value="running")
+    br
+    label(for="clothing1") Article of clothing:
+    input(type="text" name="clothing1" id="clothing1" value="sweater")
+    br
+    label(for="adjective2") Adjective:
+    input(type="text" name="adjective2" id="adjective2" value="angsty")
+    br
+    label(for="famousperson1") Famous person:
+    input(type="text" name="famousperson1" id="famousperson1" value="Ed Sheran")
+    br
+    label(for="number2") Number:
+    input(type="text" name="number2" id="number2" value="5")
+    br
+    label(for="person2") Person:
+    input(type="text" name="person2" id="person2" value="John")
     br
     label(for="noun3") Noun:
-    input(type="text" name="noun3" id="noun3")
+    input(type="text" name="noun3" id="noun3" value="dog")
     br
-    label(for="verb3") Verb:
-    input(type="text" name="verb3" id="verb3")
+    label(for="person3") Person:
+    input(type="text" name="person3" id="person3" value="Jane")
+    br
+    label(for="occupation1") Job Occupation:
+    input(type="text" name="occupation1" id="occupation1" value="buisness man")
     br
     label(for="storyChoice") Choose One
     select(form="words" name="storyChoice" id="storyChoice")
